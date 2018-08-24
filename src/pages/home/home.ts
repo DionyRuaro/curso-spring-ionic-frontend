@@ -12,4 +12,9 @@ export class HomePage {
 
   }
 
+  login(){
+    //Empilha a página
+    //this.navCtrl.push('CategoriasPage');
+    this.navCtrl.setRoot('CategoriasPage');
+  }
 }
